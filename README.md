@@ -13,21 +13,21 @@ Vital Body parameters:
 4.Our idea integrates the sensors used in monitoring these parameters with a microcontroller and enable the doctor to monitor the data remotely from any place.                                         
 5.If any one of the body parameters is normal, then we can tell that the patient is not well, so we have a notifying system which helps the doctor in identify the patients and take care accordingly.                                                    
 6.Maintain a record of all the body parameters without any human interference is another advantage in our idea.     
-**Hardware and software Requirements:**
-1.We require sensors which are accurate in monitoring an individual body parameter as these sensors are generally used in the ICUs we have to know how use them for our purpose.
-2.We require a microcontroller which has enough number of digital and analog pins with Wi-Fi capability here for demonstration we used NodeMCU.
-3.We need a Router to which all our Wi-Fi modules are connected and it is also connected to the local server.
-4.If the local server is made online the user can monitor the sensor data of patients from any place in the world but if it is not made online then the user has to connect to the same network to which the local server is connected. 
-5.We used a Raspberrypi to run the Blynk server this can also be done using a laptop or we can set up a server of our own.
-6.We are running a Blynk server, but we can use Django or other servers and build the app accordingly. 
-7.As we are having local server, we can save the data from various sensors from various devices.
-8.The server uses the port 8080 which is generally used for web services and the app(user)is connected to the port 9443(in case of Blynk local server).
-Process Flow:
-•	The data from various sensors of patients in ICU are collected.
-•	The sensor data is sent to the local server through router using Wi-fi modules.
-•	The data is displayed in the users GUI in app as requested by the user, i.e the user can choose any patient and see medical data in the chart provided in the GUI in the form of graphs with labels on graphs.
-•	If in case any abnormal readings are noted the user get the notification with id of the patient.
-Data Flow Diagram:
+**Hardware and software Requirements:**         
+1.We require sensors which are accurate in monitoring an individual body parameter as these sensors are generally used in the ICUs we have to know how use them for our purpose.        
+2.We require a microcontroller which has enough number of digital and analog pins with Wi-Fi capability here for demonstration we used NodeMCU.       
+3.We need a Router to which all our Wi-Fi modules are connected and it is also connected to the local server.         
+4.If the local server is made online the user can monitor the sensor data of patients from any place in the world but if it is not made online then the user has to connect to the same network to which the local server is connected.         
+5.We used a Raspberrypi to run the Blynk server this can also be done using a laptop or we can set up a server of our own.        
+6.We are running a Blynk server, but we can use Django or other servers and build the app accordingly.        
+7.As we are having local server, we can save the data from various sensors from various devices.        
+8.The server uses the port 8080 which is generally used for web services and the app(user)is connected to the port 9443(in case of Blynk local server).       
+**Process Flow:**       
+•	The data from various sensors of patients in ICU are collected.         
+•	The sensor data is sent to the local server through router using Wi-fi modules.         
+•	The data is displayed in the users GUI in app as requested by the user, i.e the user can choose any patient and see medical data in the chart provided in the GUI in the form of graphs with labels on graphs.        
+•	If in case any abnormal readings are noted the user get the notification with id of the patient.        
+**Data Flow Diagram:**          
 
 
 
