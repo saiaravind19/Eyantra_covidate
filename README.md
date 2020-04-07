@@ -1,19 +1,19 @@
-1.As we know that COVID 19 cases are increasing every day and hence the demand of doctors who knows how handle those cases are also increasing.
-2.If we end up in a situation where we might not have enough doctors are not available, in that case the doctor cannot visit to each patient and look after him.
-3.Hence implementing IoT in this scenario will save the doctor time and helps in taking more care towards the patients who are in critical condition.
-Below are the vital body parameters which are generally monitored for an induvial.
-Vital Body parameters:
-■	Blood Pressure 
-■	Heart Rate 
-■	Oximetry 
-■	Blood Glucose monitoring 
-■	Body Temperature
-■	Respiration Rate (when a person is on ventilator)
-4.Our idea integrates the sensors used in monitoring these parameters with a microcontroller and enable the doctor to monitor the data remotely from any place.
-5.If any one of the body parameters is normal, then we can tell that the patient is not well, so we have a notifying system which helps the doctor in identify the patients and take care accordingly.
-6.Maintain a record of all the body parameters without any human interference is another advantage in our idea.
-
-Hardware and software Requirements:
+**Description:**        
+1.As we know that COVID 19 cases are increasing every day and hence the demand of doctors who knows how handle those cases are also increasing.         
+2.If we end up in a situation where we might not have enough doctors are not available, in that case the doctor cannot visit to each patient and look after him.      
+3.Hence implementing IoT in this scenario will save the doctor time and helps in taking more care towards the patients who are in critical condition.       
+Below are the vital body parameters which are generally monitored for an induvial.      
+Vital Body parameters:      
+■	Blood Pressure.             
+■	Heart Rate.             
+■	Oximetry.             
+■	Blood Glucose monitoring.              
+■	Body Temperature.                     
+■	Respiration Rate (when a person is on ventilator).                        
+4.Our idea integrates the sensors used in monitoring these parameters with a microcontroller and enable the doctor to monitor the data remotely from any place.                                         
+5.If any one of the body parameters is normal, then we can tell that the patient is not well, so we have a notifying system which helps the doctor in identify the patients and take care accordingly.                                                    
+6.Maintain a record of all the body parameters without any human interference is another advantage in our idea.     
+**Hardware and software Requirements:**
 1.We require sensors which are accurate in monitoring an individual body parameter as these sensors are generally used in the ICUs we have to know how use them for our purpose.
 2.We require a microcontroller which has enough number of digital and analog pins with Wi-Fi capability here for demonstration we used NodeMCU.
 3.We need a Router to which all our Wi-Fi modules are connected and it is also connected to the local server.
