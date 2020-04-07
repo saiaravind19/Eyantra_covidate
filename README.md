@@ -27,7 +27,9 @@ Vital Body parameters:
 •	The sensor data is sent to the local server through router using Wi-fi modules.         
 •	The data is displayed in the users GUI in app as requested by the user, i.e the user can choose any patient and see medical data in the chart provided in the GUI in the form of graphs with labels on graphs.        
 •	If in case any abnormal readings are noted the user get the notification with id of the patient.        
-**Data Flow Diagram:**          
+**Data Flow Diagram:**              
+![Annotation 2020-04-07 230513](https://user-images.githubusercontent.com/39476865/78704020-d8bae080-7928-11ea-9101-0250e1bf8977.jpg)
+
 
 
 
