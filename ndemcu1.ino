@@ -26,9 +26,9 @@ BLYNK_WRITE(V3)
 {
   obstacle1 = param.asInt();
 }
-//Belo function is called for every 1 sec as it is initilised in the setup of the code 
+//Below function is called for every 1 sec as it is initilised in the setup of the code 
 /*here as i used bridge to communicate between node mcu it not necessary but insted u can give a place values for each nodemcu
-to display if any abnormal activity is detected
+to display if any abnormal activity is detected as we can provide space for every patient this feature comes in handy
 the below function performs comparision of the sensors values with thresthold set by the user and also reading the sensor data from the 
 pins of nodemcu*/
 void bridge_from_another_device()
