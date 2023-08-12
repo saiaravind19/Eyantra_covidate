@@ -26,7 +26,7 @@ Vital Body parameters:
 6.We are running a Blynk server, but we can use Django or other servers and build the app accordingly.        
 7.As we are having local server, we can save the data from various sensors from various devices.        
 8.The server uses the port 8080 which is generally used for web services and the app(user)is connected to the port 9443(in case of Blynk local server).      
-9.We can also sent the live vedio feed to the user which is not done in the vedio.           
+.We can also sent the live vedio feed to the user which is not done in the vedio.           
 **Process Flow:**       
 •	The data from various sensors of patients in ICU are collected.         
 •	The sensor data is sent to the local server through router using Wi-fi modules.         
